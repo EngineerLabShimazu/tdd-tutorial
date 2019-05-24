@@ -1,5 +1,8 @@
 class Dollar:
+    # TODO Moneyの丸め処理どうする？
+    # TODO hashCode()
     def __init__(self, amount):
+        # TODO amount を privateにする
         self.amount = amount
 
     def times(self, multiplier):
